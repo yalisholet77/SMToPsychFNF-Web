@@ -1,5 +1,5 @@
 import haxe.ds.StringMap;
-import SMUtils.SwagSection;
+import audioUtils.SwagSection;
 
 
 // Ye olde format:
@@ -43,7 +43,7 @@ typedef SongConfig = {
     ?gfVersion:String
 };
 
-class SMFile
+class audioFile
 {
     public var extraHeaderTags:StringMap<String>;
     public var bpms:Array<Array<Float>>;
